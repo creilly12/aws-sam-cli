@@ -2,6 +2,7 @@
 Custom Exceptions for Init module
 """
 
+# test4
 
 class InitErrorException(Exception):
     fmt = 'An unspecified error occurred'
@@ -14,4 +15,4 @@ class InitErrorException(Exception):
 
 class GenerateProjectFailedError(InitErrorException):
     fmt = \
-        ("An error ocurred while generating this {project}: {provider_error}")
+        ("An error occurred while generating this {project}: {provider_error}")
