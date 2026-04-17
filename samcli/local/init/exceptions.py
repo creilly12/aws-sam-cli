@@ -2,7 +2,7 @@
 Custom Exceptions for Init module
 """
 
-# test3
+# test4
 
 class InitErrorException(Exception):
     fmt = 'An unspecified error occurred'
